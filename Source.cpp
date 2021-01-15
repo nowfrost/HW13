@@ -1,10 +1,11 @@
 #include <iostream>
-#include "Math.h"
+#include"Helpers.h"
 
 int main()
-
 {
-	int con4 = sum(10, 20);
-	std::cout << "Result =" << con4 << std::end1;
+	int result = kvsum(20, 30);
+
+	std::cout << "Result = " << result << std::endl;
+
 	return 0;
 }
